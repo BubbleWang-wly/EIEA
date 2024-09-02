@@ -14,6 +14,8 @@ The essential package and recommened version to run the code:
 python runxxx.py DATASET RATE 
 
 For example: 
-`python runxxx.py FB_YAGO 0.2`
-`python runxxx.py FB_DB 0.2`
-`python runxxx.py `
+```
+python runxxx.py FB_YAGO 0.2
+python runxxx.py FB_DB 0.2
+python runxxx.py FB_DB 0.5
+```
