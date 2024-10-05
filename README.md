@@ -10,6 +10,8 @@ pip install -r EIEA-env.txt
 
 # Dataset
 The **MMEA-data** and **ECS-results** can be download from  [GoogleDrive](https://drive.google.com/drive/folders/1wfErYdAV93yxPtPHqkGanbmb_Ztv-LRU?usp=drive_link).
+The original MMEA dataset can be download from  [MMKB](https://github.com/mniepert/mmkb) and [MMEA](https://github.com/lzxlin/mclea?tab=readme-ov-file).
+Those files should be organized into the following file hierarchy:
 ```
 EIEA
 ├── data
@@ -30,6 +32,9 @@ EIEA
 └── ECS_compute
 
 ```
+**NOTE**
+Based on the URLs given in the original dataset, we use crawling techniques to obtain entity name information. However, due to the unavailability of some URLs, the name information of certain entities in FB15K is missing. 
+All entity name information can be found in **MMEA_name**.
 
 # Run EIEA
 python runxxx.py DATASET RATE 
