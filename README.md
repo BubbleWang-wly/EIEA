@@ -36,7 +36,7 @@ python runxxx.py DATASET RATE
 
 For example: 
 ```
-python runxxx.py FB_YAGO 0.2
-python runxxx.py FB_DB 0.2
-python runxxx.py FB_DB 0.5
+python run0.2.py FB_YAGO 0.2
+python run0.2.py FB_DB 0.2
+python run0.2.py FB_DB 0.5
 ```
