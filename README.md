@@ -1,5 +1,5 @@
 # EIEA
-This repository is the official implementation of EIEA.
+This repository is the official implementation of EIEA (Explicit-Implicit Entity Alignment Method in Multi-modal Knowledge Graphs).
 
 
 # Environment
