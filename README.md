@@ -29,6 +29,7 @@ EIEA
 |        └── seed0.5
 |        └── seed0.8
 └── src
+└── DBP15K_src
 └── ECS_compute
 
 ```
@@ -68,8 +69,22 @@ python run0.2.py FB_DB 0.5
 | DBP15K  | Ja_en          |              |                |Fr_en         |                |              |Zh_en         |                |              |  
 |---------|----------------|--------------|----------------|--------------|----------------|--------------|--------------|----------------|--------------|
 |         | H@1            | H@10         | MRR            | H@1          | H@10           | MRR          | H@1          | H@10           | MRR          |
-| EIEA    | **98.00**      | **99.72**    | **98.69**      | **99.60**    | **99.98**      | **99.75**    | **96.14**    | **99.35**      | **97.37**    |
+| EIEA    |   98.00        |   99.72      |   98.69        |   99.60      |   99.98        |   99.75      |   96.14      |   99.35        |   97.37      |
 
+# Run EIEA on DBP15K
+```
+cd DBP15K_src
+python run.py zh_en
+python run.py ja_en
+python run.py fr_en
+```
+# Note
+In FB-YG and FB-DB :
+  Name/Att: use Roberta_finetuning_semantic_similarity_stsb_multi_mt
+
+In DBP:
+  Name: use Roberta_finetuning_semantic_similarity_stsb_multi_mt
+  Att: use LaBSE
 
 
 
