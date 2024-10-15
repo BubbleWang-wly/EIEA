@@ -1,4 +1,4 @@
-# EIEA
+# EIEA (Explicit-Implicit Entity Alignment Method in Multi-modal Knowledge Graphs)
 This repository is the official implementation of EIEA (Explicit-Implicit Entity Alignment Method in Multi-modal Knowledge Graphs).
 
 
