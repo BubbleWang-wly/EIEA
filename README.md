@@ -47,10 +47,10 @@ python run0.2.py FB_DB 0.2
 python run0.2.py FB_DB 0.5
 ```
 # EIEA on FB-DB/ FB-YAGO
-
+![image](https://github.com/BubbleWang-wly/EIEA/blob/main/MMKG_result.jpg?raw=true)
 
 # EIEA On DBP15K
-
+![image](https://github.com/BubbleWang-wly/EIEA/blob/main/dbp_result.jpg?raw=true)
 
 # Run EIEA on DBP15K
 ```
